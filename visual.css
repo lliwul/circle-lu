@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit; 
+}
+body {
+background-color: black;
+color: white;
+}
+
+div {
+    border: 2px solid seagreen;
+}
+
+p {
+    border: 2px solid seagreen;
+}
+
+small {
+    border: 2px solid seagreen;
+}
+
+b {
+    border: 2px solid seagreen;
+    color: skyblue;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+cite {
+    border: 2px solid seagreen;
+}
+
+strong {
+    border: 2px solid seagreen;
+    color: skyblue;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
