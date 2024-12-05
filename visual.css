@@ -7,10 +7,56 @@ html {
 body {
 background-color: black;
 color: white;
+text-align: center;
+margin: 200px inherit;
+
+}
+
+.content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center, justify;
+    margin: 20px auto;
+
+
 }
 
 div {
-    border: 2px solid seagreen;
+    
+}
+
+.grid{
+    display: grid;
+    background-color: yellow;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.grid a {
+        text-align: center;
+        margin: 20px auto;
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium';
+        font-size: 20px;
+}
+    
+.grid  a, .more a {
+        color: #6a553f; 
+        font-weight: bold;
+        border: 2px dashed #6a553f; 
+        padding: 8px 15px;
+        border-radius: 8px;
+        background-color: yellow;
+        transition: all 0.4s ease-in-out;
+}
+    
+.container a:hover, .more a:hover {
+    color: #fdfeab;
+    background-color: #6a553f;
+    border-color: #fdfeab; 
+
+
 }
 
 p {
@@ -26,10 +72,6 @@ b {
     color: skyblue;
     font-size: 24px;
     margin-bottom: 20px;
-}
-
-cite {
-    border: 2px solid seagreen;
 }
 
 strong {
